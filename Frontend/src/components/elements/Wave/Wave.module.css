@@ -1,0 +1,23 @@
+.wave {
+  position: relative;
+  margin-top: 10px;
+  z-index: 15;
+}
+
+.reversed_wave {
+  position: relative;
+  margin-top: 10px;
+  transform: rotate(180deg);
+  z-index: 15;
+}
+
+.wave_image {
+  width: 100%;
+  height: 70px;
+}
+.wave_image2 {
+  width: 100%;
+  position: absolute;
+  top: 20px;
+  height: 70px;
+}
